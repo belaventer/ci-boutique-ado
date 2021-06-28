@@ -32,3 +32,5 @@ Boutique Ado Project Steps
 
 15. Freeze requirements `pip3 freeze > requirements.txt`
 16. Create directory for templates > allauth
+17. Copy allauth templates with `cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth/`
+18. Create a base template under templates
