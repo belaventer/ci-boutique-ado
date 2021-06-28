@@ -34,3 +34,8 @@ Boutique Ado Project Steps
 16. Create directory for templates > allauth
 17. Copy allauth templates with `cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth/`
 18. Create a base template under templates
+19. Create home app python3 manage.py startapp home
+20. Create index.html in home/templates/home
+21. Add view to views.py and create urls.py in home app
+22. Add home.urls in project urls.py
+23. Include templates and home to installed apps in settings.py
